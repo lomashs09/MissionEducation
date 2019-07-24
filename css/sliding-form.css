@@ -1,0 +1,117 @@
+#slide-contactform {  
+    width: 400px;
+    left: -405px;
+    height:  510px;
+    margin: 25px 0;
+    position: fixed;
+    box-shadow: 0 0 05px 0 #333;  
+    z-index:1000;
+    background: #2c3e50 !important;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  #slide-contact-button { 
+    width: 12%;  
+    padding: 7% 3%;  
+    cursor: pointer;
+    margin-left: 400px;
+    margin-top: 38%;
+    font-size: 23px; 
+    color: #fafafa;  
+    position: absolute;
+  }
+  
+  
+  
+  #slide-contactform {
+    background-image: url(../../img/touch.jpg);
+    border-radius: 0 15px 15px 0; 
+/*    border: 5px solid #666666; */
+    border-left: none;
+  }
+  #slide-contact-button
+  {
+      background-color: rgb(0, 119, 230);transition: all 0.5s;
+      border-radius: 0 15px 15px 0; 
+    border: 1px solid #666666; 
+    border-left: none;
+    font-size : 20px;
+  }
+  #slide-contact-button:hover
+  {
+    background-color: rgb(6, 85, 160);
+  }
+  .rotated-text {
+      display: inline-block;
+      white-space: nowrap;
+      /* this is for shity "non IE" browsers
+         that dosn't support writing-mode */
+      -webkit-transform: translate(1.1em,0) rotate(90deg);
+         -moz-transform: translate(1.1em,0) rotate(90deg);
+           -o-transform: translate(1.1em,0) rotate(90deg);
+              transform: translate(1.1em,0) rotate(90deg);
+      -webkit-transform-origin: 0 0;
+         -moz-transform-origin: 0 0;
+           -o-transform-origin: 0 0;
+              transform-origin: 0 0;
+     /* IE9+ */
+     -ms-transform: none;
+     -ms-transform-origin: none;
+     /* IE8+ */
+     -ms-writing-mode: tb-rl;
+     /* IE7 and below */
+     *writing-mode: tb-rl;
+  }
+  
+  .rotated-text:before {
+      content: "";
+      float: left;
+      margin-top: 100%;
+  }
+  
+  .slide {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .slide input {
+    display: block;
+    border: none;
+    width: 300px;
+    height: 35px; 
+    margin: 10px 30px; text-align:left; padding-left:5px;
+  }
+  
+  .slide textarea {
+    width: 300px;
+    margin: 15px 30px;
+    height: 170px;
+    
+  }
+  .slide textarea:focus
+  {
+      border:1px solid #666666;
+  }
+  
+  .slide textarea, form .slide input { 
+    border: 1px solid #666666;
+    border-radius: 5px;
+    background: #f2f2f2;  
+    
+  }
+
+  .slide ::placeholder
+  {
+    color :#9e9d9d; 
+  }
+  .slide input[type="button"]
+  {
+    background-color: #969595;transition:all 0.5s;
+  }
+  .slide input[type="button"]:hover
+  {
+    background-color: #5f5f5f;
+  }
+
